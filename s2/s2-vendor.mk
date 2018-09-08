@@ -18,6 +18,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/bin/gx_fpcmd:system/bin/gx_fpcmd \
     vendor/leeco/s2/proprietary/bin/gx_fpd:system/bin/gx_fpd \
     vendor/leeco/s2/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/leeco/s2/proprietary/bin/wcnss_service:system/bin/wcnss_service \
     vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
     vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/leeco/s2/proprietary/etc/acdbdata/MTP/MTP_Global_cal.acdb:system/etc/acdbdata/MTP/MTP_Global_cal.acdb \
@@ -132,6 +133,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib/libmpkernel.so:system/lib/libmpkernel.so \
     vendor/leeco/s2/proprietary/lib/libmpstream.so:system/lib/libmpstream.so \
     vendor/leeco/s2/proprietary/lib/libmputility.so:system/lib/libmputility.so \
+    vendor/leeco/s2/proprietary/lib/libsoeminfo.so:system/lib/libsoeminfo.so \
     vendor/leeco/s2/proprietary/lib/libstlport.so:system/lib/libstlport.so \
     vendor/leeco/s2/proprietary/lib64/libc.so:system/lib64/libc.so \
     vendor/leeco/s2/proprietary/lib64/hw/fingerprint.vendor.msm8952.so:system/lib64/hw/fingerprint.vendor.msm8952.so \
@@ -140,6 +142,7 @@ PRODUCT_COPY_FILES += \
     vendor/leeco/s2/proprietary/lib64/libfp_gf_intejni.so:system/lib64/libfp_gf_intejni.so \
     vendor/leeco/s2/proprietary/lib64/libfpnav.so:system/lib64/libfpnav.so \
     vendor/leeco/s2/proprietary/lib64/libfpservice.so:system/lib64/libfpservice.so \
+    vendor/leeco/s2/proprietary/lib64/libsoeminfo.so:system/lib64/libsoeminfo.so \
     vendor/leeco/s2/proprietary/vendor/lib/libChamomilePA.so:system/vendor/lib/libChamomilePA.so \
     vendor/leeco/s2/proprietary/vendor/lib/libactuator_ak7371_ov16880_primax.so:system/vendor/lib/libactuator_ak7371_ov16880_primax.so \
     vendor/leeco/s2/proprietary/vendor/lib/libactuator_ak7371_ov16880_sunny.so:system/vendor/lib/libactuator_ak7371_ov16880_sunny.so \
